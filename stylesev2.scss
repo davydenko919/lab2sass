@@ -1,0 +1,775 @@
+$var1: #a496fc
+$var2: #ffffff
+$var3: #575276
+$var4: #ffffff
+$var5: #1c2225
+$var6: #ece9fd
+$var7: #000000
+$var8: #FFFFFF
+$var9: #A496FC
+
+/*
+ HEADER
+ HEADER
+ HEADER
+*/
+
+.page-header {
+  background-color: #a496fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 1158px) {
+  .page-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 260px;
+  }
+}
+
+.logo-link {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media screen and (min-width: 1158px) {
+  .logo-link {
+    font-size: 48px;
+  }
+}
+
+.nav-list {
+  display: none;
+}
+@media screen and (min-width: 1158px) {
+  .nav-list {
+    display: flex;
+    gap: 80px;
+  }
+}
+
+.nav-link {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-link-active {
+  color: #575276;
+}
+
+.nav-link-active::after {
+  box-sizing: border-box;
+  display: flex;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -23px;
+  height: 8px;
+  background-color: #575276;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.menu-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
+}
+@media screen and (min-width: 1158px) {
+  .menu-button {
+    display: none;
+  }
+}
+
+.menu-button-icon {
+  stroke: #ffffff;
+}
+.menu-button-icon-close {
+  stroke: #1c2225;
+  width: 36px;
+  height: 36px;
+}
+/* 
+MAIN
+MAIN
+MAIN 
+*/
+
+section {
+  background: #ece9fd;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.page-main {
+  background: #ece9fd;
+}
+
+.first-section-img {
+  /* margin-left: auto; */
+  margin-left: auto;
+}
+
+.section-one-header {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 120px;  
+}
+
+@media screen and (min-width: 1158px){
+  .section-one-header{
+    padding-left: 550px;
+  }
+}
+
+.section-two-header {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 55px;
+  padding-bottom: 55px;
+  padding-left: 85px;  
+}
+@media screen and (min-width: 1158px){
+  .section-two-header{
+    padding-left: 500px;
+  }
+}
+
+.first-section {
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 1158px){
+.first-section {
+  width: 1158px;
+  margin-right: auto;
+  margin-left: auto;
+}
+}
+
+.first-section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-bottom: 54px;
+}
+@media screen and (min-width: 1158px) {
+  .first-section-content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 54px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .first-section-content {
+    display: flex;
+    gap: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 54px;
+  }
+}
+
+.first-section-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 10px;
+}
+@media screen and (min-width: 1158px){
+  .first-section-text {
+    padding-left: 0px;
+  }
+}
+
+.second-section-text {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-bottom: 54px;
+}
+
+/* 
+FOOTER
+FOOTER
+FOOTER
+*/
+
+.page-header 
+	background-color: @var1
+
+.header-container 
+	display: flex
+	align-items: center
+	justify-content: space-between
+	align-content: center
+	padding: 20px
+	margin-left: auto
+	margin-right: auto
+
+media screen and (min-width: 1158px) 
+	display: flex
+	flex-direction: row
+	align-items: baseline
+	gap: 260px
+
+.logo-link 
+	color: @var2
+	text-align: center
+	font-family: Inter
+	font-size: 28px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+
+media screen and (min-width: 1158px) 
+	font-size: 48px
+
+.nav-list 
+	display: none
+	&-mobile 
+		margin: 20px
+	
+
+media screen and (min-width: 1158px) 
+	display: flex
+	gap: 80px
+
+.nav-link 
+	position: relative
+	color: @var2
+	text-align: center
+	font-family: Inter
+	font-size: 36px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	&-active 
+		color: @var3
+		&::after 
+			box-sizing: border-box
+			display: flex
+			content: ""
+			position: absolute
+			left: 0
+			bottom: -23px
+			height: 8px
+			background-color: @var3
+			border-radius: 4px
+			width: 100%
+		
+		&-mobile 
+			color: @var3
+		
+	
+	&-mobile 
+		position: relative
+		color: @var8
+		text-align: center
+		font-family: Inter
+		font-size: 36px
+		font-style: normal
+		font-weight: 400
+		line-height: normal
+	
+
+.menu-button 
+	border: none
+	background-color: transparent
+	padding: 0
+	line-height: 0
+	&-icon 
+		stroke: @var2fff
+		&-close 
+			stroke: @var5
+			width: 36px
+			height: 36px
+		
+		&-close 
+			stroke: @var2fff
+			width: 36px
+			height: 36px
+		
+	
+
+media screen and (min-width: 1158px) 
+	display: none
+
+section 
+	background: @var6
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset
+
+.page-main 
+	background: @var6
+
+.first-section-img 
+	margin-left: auto
+	margin-left: auto
+
+.section-one-header 
+	color: @var7
+	font-family: Inter
+	font-size: 40px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	padding-top: 55px
+	padding-bottom: 55px
+	padding-left: 120px
+
+media screen and (min-width: 1158px) 
+	padding-left: 550px
+
+.section-two-header 
+	color: @var7
+	font-family: Inter
+	font-size: 40px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	padding-top: 55px
+	padding-bottom: 55px
+	padding-left: 85px
+
+media screen and (min-width: 1158px) 
+	padding-left: 500px
+
+.first-section 
+	width: 320px
+	margin-right: auto
+	margin-left: auto
+	&-content 
+		display: flex
+		flex-direction: column
+		gap: 40px
+		margin-right: auto
+		margin-left: auto
+		padding-bottom: 54px
+	
+	&-text 
+		color: @var7
+		font-family: Inter
+		font-size: 24px
+		font-style: normal
+		font-weight: 400
+		line-height: normal
+		padding-left: 10px
+	
+	&-page2-content 
+		display: flex
+		flex-direction: column
+		gap: 40px
+		margin-right: auto
+		margin-left: auto
+		padding-bottom: 54px
+	
+	&-page2-image 
+		width: 320px
+	
+	&-page2-content 
+		display: flex
+		flex-direction: column
+		gap: 40px
+		margin-right: auto
+		margin-left: auto
+		padding-bottom: 54px
+	
+	&-page2-image 
+		width: 320px
+	
+
+media screen and (min-width: 1158px) 
+	width: 1158px
+	margin-right: auto
+	margin-left: auto
+
+media screen and (min-width: 1158px) 
+	display: flex
+	flex-direction: row
+	gap: 40px
+	margin-right: auto
+	margin-left: auto
+	padding-left: 54px
+	padding-right: 54px
+	padding-bottom: 54px
+
+media screen and (min-width: 1158px) 
+	display: flex
+	gap: 40px
+	margin-right: auto
+	margin-left: auto
+	padding-left: 54px
+	padding-right: 54px
+	padding-bottom: 54px
+
+media screen and (min-width: 1158px) 
+	padding-left: 0px
+
+.second-section-text 
+	color: @var7
+	font-family: Inter
+	font-size: 24px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	padding-left: 54px
+	padding-right: 54px
+	padding-bottom: 54px
+
+.page-footer 
+	background-color: @var1
+
+.contacts-text 
+	color: @var2
+	font-family: Inter
+	font-size: 24px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	padding-top: 12px
+
+media screen and (min-width: 1158px) 
+	font-size: 36px
+
+.contacts-link 
+	color: @var2
+	font-family: Inter
+	font-size: 20px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	margin-bottom: 12px
+
+media screen and (min-width: 1158px) 
+	font-size: 36px
+
+media screen and (min-width: 320px) and (max-width: 1158px) 
+	padding-left: 10px
+
+.footer-container 
+	display: flex
+	flex-direction: column
+	align-items: start
+	justify-content: space-between
+	align-content: center
+	margin-left: auto
+	margin-right: auto
+	gap: 10px
+	padding-bottom: 12px
+	&-mobele 
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: space-between
+		align-content: center
+		margin-left: auto
+		margin-right: auto
+		gap: 10px
+	
+
+.page2-first-section 
+	width: 320px
+	margin-right: auto
+	margin-left: auto
+
+media screen and (min-width: 1158px) 
+	width: 1158px
+	margin-right: auto
+	margin-left: auto
+
+.section-one-page2-header 
+	color: @var7
+	font-family: Inter
+	font-size: 40px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	padding-top: 55px
+	padding-bottom: 55px
+	text-align: center
+
+media screen and (min-width: 1158px) 
+	display: flex
+	flex-direction: row
+	gap: 40px
+	margin-right: auto
+	margin-left: auto
+	padding-left: 54px
+	padding-right: 54px
+	padding-bottom: 54px
+
+media screen and (min-width: 1158px) 
+	display: flex
+	gap: 40px
+	margin-right: auto
+	margin-left: auto
+	padding-left: 54px
+	padding-right: 54px
+	padding-bottom: 54px
+
+media screen and (min-width: 1158px) 
+	width: 559px
+	height: 371px
+
+.card-uni 
+	width: 279px
+	height: 390px
+	background: @var8
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)
+	text-align: center
+	transition: transform 0.3s ease-in-out
+	&:hover 
+		transform: scale(1.1)
+	
+
+.background-img 
+	background: @var8
+
+.uni-cards 
+	display: flex
+	flex-wrap: wrap
+	column-gap: 100px
+	row-gap: 48px
+	padding-left: 20px
+	padding-bottom: 40px
+
+media screen and (min-width: 1158px) 
+	display: flex
+	flex-wrap: wrap
+	column-gap: 100px
+	row-gap: 48px
+	padding-left: 0
+	margin-right: 60px
+	margin-left: 60px
+
+.page2-first-section 
+	width: 320px
+	margin-right: auto
+	margin-left: auto
+
+media screen and (min-width: 1158px) 
+	width: 1158px
+	margin-right: auto
+	margin-left: auto
+
+.section-one-page2-header 
+	color: @var7
+	font-family: Inter
+	font-size: 40px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	padding-top: 55px
+	padding-bottom: 55px
+	text-align: center
+
+media screen and (min-width: 1158px) 
+	display: flex
+	flex-direction: row
+	gap: 40px
+	margin-right: auto
+	margin-left: auto
+	padding-left: 54px
+	padding-right: 54px
+	padding-bottom: 54px
+
+media screen and (min-width: 1158px) 
+	display: flex
+	gap: 40px
+	margin-right: auto
+	margin-left: auto
+	padding-left: 54px
+	padding-right: 54px
+	padding-bottom: 54px
+
+media screen and (min-width: 1158px) 
+	width: 559px
+	height: 371px
+
+.hob-header 
+	color: @var7
+	font-family: Inter
+	font-size: 40px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+	text-align: center
+
+.hob-text 
+	color: @var7
+	font-family: Inter
+	font-size: 26px
+	font-style: normal
+	font-weight: 400
+	line-height: normal
+
+media screen and (min-width: 320px) and (max-width: 1158px) 
+	padding-left: 10px
+	padding-right: 10px
+
+.hob-text 
+	text-align: left
+
+.hobis 
+	display: flex
+	flex-direction: row
+	gap: 20px
+	padding-left: 50px
+	padding-right: 50px
+	&-r 
+		display: flex
+		flex-direction: row-reverse
+		gap: 20px
+		padding-left: 50px
+		padding-right: 50px
+	
+
+media screen and (min-width: 320px) and (max-width: 1158px) 
+	flex-direction: column
+	padding-left: 0
+	padding-right: 0
+
+media screen and (min-width: 320px) and (max-width: 1158px) 
+	flex-direction: column
+	padding-left: 0
+	padding-right: 0
+
+.hob-con 
+	display: flex
+	gap: 40px
+	flex-wrap: wrap
+	padding-bottom: 40px
+
+media screen and (min-width: 320px) and (max-width: 1158px) 
+	width: 320px
+
+.mobile-menu 
+	position: fixed
+	display: flex
+	justify-content: center
+	top: 0
+	width: 100%
+	height: 100%
+	z-index: 100
+	opacity: 0
+	visibility: hidden
+	pointer-events: none
+	transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1)
+	background: rgba(46, 47, 66, 0.4)
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2)
+	&-container 
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		position: absolute
+		background-color: @var9
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+		width: 100%
+		align-items: flex-end
+		height: 100%
+		margin-left: auto
+		margin-right: auto
+	
+
+.is-open 
+	opacity: 1
+	visibility: visible
+	pointer-events: auto
+
+.tel-and-close-btn 
+	display: flex
+	align-items: center
+	justify-content: flex-end
+	padding-top: 20px
+	padding-right: 20px
+	padding-left: 20px
+	width: 100%
+
+.close-mobile-menu-btn 
+	border: none
+	background-color: transparent
+	padding: 0
+	line-height: 0
+
+.container 
+	width: 320px
+
+media screen and (min-width: 1158px) 
+	width: 1158px
+
+h1, h2, h3, h4, h5, h6, p 
+	margin: 0
+
+ul, ol 
+	list-style-type: none
+	margin: 0
+	padding: 0
+
+img 
+	display: block
+
+li, .list 
+	list-style-type: none
+
+a, .link 
+	text-decoration: none
+
+button 
+	cursor: pointer
+
+body 
+	background-color: @var2
+
